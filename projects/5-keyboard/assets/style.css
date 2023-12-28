@@ -1,0 +1,43 @@
+.project {
+  background-color: #2E4057;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #3D5A80;
+  background-color: #EE6C4D;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #222831;
+  text-align: center;
+  text-decoration: none;
+  color: #222831;
+}
+
+.color {
+  color: #E5989B;
+  display: flex;
+  flex-direction: row;
+}
+
+table,
+th,
+td {
+  border: 1px solid #D8A7B1;
+}
