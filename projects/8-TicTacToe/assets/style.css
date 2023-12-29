@@ -49,7 +49,7 @@ h1{
 }
 
 .msg-container {
-  height: 100vmin;
+  height: 90vmin;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #C0C0C0;
+  background-color: #b3d9ff;
 }
 
 nav a {

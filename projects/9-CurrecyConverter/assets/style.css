@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #332a12;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #d1eecc;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #565656;
+  text-align: center;
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1{
+  margin-top: 0.5rem;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  min-width: 35vh;
+  text-align: center;
+}
+
+.amount {
+  text-align:left;
+}
+
+form {
+  margin: 2rem 0 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+form input {
+  font-size: 1.3rem;
+  border: 1.5px solid lightgrey;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.select img {
+  max-width: 2rem;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid lightgrey;
+}
+
+.select select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 2rem 0;
+}
+
+.exchange {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.msg {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+form button {
+  height: 3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: #af4d98;
+  color: white;
+}
