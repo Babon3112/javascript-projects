@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap");
 
 body {
   font-family: "Courier Prime", monospace;
@@ -10,7 +10,7 @@ body {
 #wrapper {
   box-sizing: border-box;
   text-align: center;
-  width: 450px;
+  width: 475px;
   height: 600px;
   background-color: #663399;
   color: #fff;
@@ -68,7 +68,7 @@ button {
 }
 
 #guess {
-  font-size: 55px;
+  font-size: 50px;
   margin-top: 120px;
   color: #fff;
 }
@@ -79,6 +79,7 @@ button {
 
 h1 {
   background-color: #993399;
+  padding: 10px;
   color: #fff;
   text-align: center;
 }
@@ -108,4 +109,18 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: #1b1b1b;
+}
+
+@media only screen and (max-width: 500px) {
+  #wrapper {
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .msg {
+    font-size: 14.5px;
+  }
 }
