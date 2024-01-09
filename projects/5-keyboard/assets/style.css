@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+body{
+  font-family: "Courier Prime", monospace;
+}
+
 .project {
   background-color: #2E4057;
   color: #FFFFFF;

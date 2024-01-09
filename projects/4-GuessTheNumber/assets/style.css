@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
 body {
-  margin: 0 auto;
+  font-family: "Courier Prime", monospace;
   background-color: #1a1a66;
   color: #fff;
   text-align: center;
